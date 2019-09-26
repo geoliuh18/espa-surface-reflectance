@@ -14,7 +14,7 @@ include $(TOP)/make.config
 CC    = gcc
 FC    = gfortran
 RM    = rm
-EXTRA = -Wall $(EXTRA_OPTIONS)
+EXTRA = -std=legacy -Wall $(EXTRA_OPTIONS)
 
 # Define the source code and object files
 F_SRC = AATSR.f ABSTRA.f AEROSO.f AKTOOL.f ATMREF.f AVHRR.f BBM.f BDM.f \
